@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 90px;
+    width: 100%;
+    background-color: #ced6e0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav > a{
+    color: #30336b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#myform{
+    /* background-color: aqua; */
+    height: 87vh;
+    width: 100%;
+    background-color: #130f40;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{ 
+    color: #ced6e0;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myform > table{
+    height: 50%;
+    width: 30%;
+    border: 2px solid #ced6e0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px #ced6e0;
+}
+
+#myform > table label{
+    color: #ced6e0;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+#myform > table input{
+    border: none;
+    border-bottom: 1px solid #ced6e0;
+    background-color: transparent;
+    color: #ced6e0;
+}
+
+#myform > table input:focus{
+    outline: none;
+} 
+
+button{
+    background-color: #ced6e0;
+    color: #130f40;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+} 
+
+#myuser{
+    height: 100%;
+    width: 100%;
+    background-color: #130f40;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+#card{
+    height: 370px;
+    width: 320px;
+    border: 1px solid #ced6e0;
+    box-shadow: 0px 0px 5px #ced6e0;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+#card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#card td > button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#card td > button{
+    background-color: #ced6e0;
+    color: #130f40;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+#card td{
+    color: #ced6e0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card th{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card h3{
+    color: #ced6e0;
+}
